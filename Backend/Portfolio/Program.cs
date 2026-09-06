@@ -20,7 +20,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy("Frontend", policy =>
     {
         policy
-            .WithOrigins("https://portfolio-ozpp-9annq8ttx-hadiya4.vercel.app")
+           .WithOrigins(
+                "https://portfolio-ozpp-9annq8ttx-hadiya4.vercel.app",
+                "https://portfolio-e6fr6s6qi-hadiya4.vercel.app"
+            )
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
