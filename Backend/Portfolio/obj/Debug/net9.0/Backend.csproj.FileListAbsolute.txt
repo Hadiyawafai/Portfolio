@@ -162,3 +162,7 @@ C:\Users\Sadiya Wafai\Desktop\portfolio\Backend\Portfolio\obj\Debug\net9.0\refin
 C:\Users\Sadiya Wafai\Desktop\portfolio\Backend\Portfolio\obj\Debug\net9.0\Backend.pdb
 C:\Users\Sadiya Wafai\Desktop\portfolio\Backend\Portfolio\obj\Debug\net9.0\Backend.genruntimeconfig.cache
 C:\Users\Sadiya Wafai\Desktop\portfolio\Backend\Portfolio\obj\Debug\net9.0\ref\Backend.dll
+C:\Users\Sadiya Wafai\Desktop\portfolio\Backend\Portfolio\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Sadiya Wafai\Desktop\portfolio\Backend\Portfolio\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Sadiya Wafai\Desktop\portfolio\Backend\Portfolio\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Sadiya Wafai\Desktop\portfolio\Backend\Portfolio\obj\Debug\net9.0\Backend.sourcelink.json

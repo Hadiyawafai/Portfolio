@@ -13,6 +13,9 @@ builder.Services.AddScoped<IContactService, ContactService>();
 
 builder.Services.AddControllers();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("Frontend", policy =>
@@ -26,7 +29,8 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// app.UseHttpsRedirection();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseCors("Frontend");
 
