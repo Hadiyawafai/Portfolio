@@ -21,8 +21,8 @@ builder.Services.AddCors(options =>
     {
         policy
            .WithOrigins(
-                "http://localhost:5173",
-                "https://portfolio-s3gg-ieg26a3ze-hadiya4.vercel.app"
+                 "http://localhost:5173",
+                "https://portfolio-s3gg-ten.vercel.app"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
