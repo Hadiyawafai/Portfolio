@@ -21,6 +21,8 @@ builder.Services.AddCors(options =>
     {
         policy
            .WithOrigins(
+                "http://localhost:5173",
+                "https://portfolio-s3gg-ajhkqb7iq-hadiya4.vercel.app",
                 "https://portfolio-ozpp-9annq8ttx-hadiya4.vercel.app",
                 "https://portfolio-e6fr6s6qi-hadiya4.vercel.app"
             )
